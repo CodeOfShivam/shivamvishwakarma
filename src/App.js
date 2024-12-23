@@ -17,8 +17,6 @@ function App() {
   return (
     <ThemeProvider>
       <>
-
-        {!loading ? (
           <div >
             <Navbar />
             <Home />
@@ -27,10 +25,6 @@ function App() {
             <Projects />
             <Contact />
           </div>
-
-        ) : (
-          <LoadingScreen />
-        )}
       </>
     </ThemeProvider>
 

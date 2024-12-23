@@ -16,16 +16,12 @@ function App() {
 
   return (
     <ThemeProvider>
-      <>
-          <div >
-            <Navbar />
-            <Home />
-            <About />
-            <Services />
-            <Projects />
-            <Contact />
-          </div>
-      </>
+          <Navbar />
+          <Home />
+          <About />
+          <Services />
+          <Projects />
+          <Contact />
     </ThemeProvider>
 
   );

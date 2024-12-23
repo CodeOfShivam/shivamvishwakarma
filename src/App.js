@@ -1,34 +1,40 @@
-import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
-import ReactGA from "react-ga4";
-
-import Homepage from "./pages/homepage";
-import About from "./pages/about";
-import Projects from "./pages/projects";
-import Contact from "./pages/contact";
-import Notfound from "./pages/404";
-
-import { TRACKING_ID } from "./data/tracking";
-import "./app.css";
+import { useState, useEffect } from "react";
+import Contact from "./views/Contact";
+import Navbar from "./components/Navbar";
+import About from "./views/About";
+import Home from './views/Home'
+import Services from "./views/Services";
+import Projects from "./views/Projects";
+import LoadingScreen from "./components/LoadingScreen";
+import { ThemeProvider } from "./themeProvider";
 
 function App() {
-	useEffect(() => {
-		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
-		}
-	}, []);
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000)
+  }, [])
 
-	return (
-		<div className="App">
-			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} />
-			</Routes>
-		</div>
-	);
+  return (
+    <ThemeProvider>
+      <>
+
+        {!loading ? (
+          <div >
+            <Navbar />
+            <Home />
+            <About />
+            <Services />
+            <Projects />
+            <Contact />
+          </div>
+
+        ) : (
+          <LoadingScreen />
+        )}
+      </>
+    </ThemeProvider>
+
+  );
 }
 
 export default App;

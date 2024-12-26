@@ -1,19 +1,9 @@
 import React, { useContext } from "react";
 import { contactLinks } from "../constants";
-import { ThemeContext } from "../themeProvider";
 
 const Contact = () => {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
   return (
-    <div
-      id="contact"
-      className={
-        darkMode
-          ? "bg-gray-100 pt-24 md:h-screen"
-          : "bg-black pt-24 text-white md:h-screen"
-      }
-    >
+    <div id="contact" className="pt-24 md:h-screen">
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
           Contact
@@ -32,14 +22,7 @@ const Contact = () => {
           <div className="w-full md:pr-8">
             <form>
               <div class="my-6">
-                <label
-                  for="name"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
-                >
+                <label for="name" class={"block mb-2 text-lg font-medium"}>
                   Name
                 </label>
                 <input
@@ -51,14 +34,7 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label
-                  for="email"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
-                >
+                <label for="email" class={"block mb-2 text-lg font-medium"}>
                   Email
                 </label>
                 <input
@@ -70,14 +46,7 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label
-                  for="message"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
-                >
+                <label for="message" class={"block mb-2 text-lg font-medium"}>
                   Message
                 </label>
                 <textarea
@@ -138,16 +107,10 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div
-        className={
-          darkMode
-            ? "w-full bg-white text-black text-lg py-3 flex justify-center md:mt-20"
-            : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center md:mt-20"
-        }
-      >
+      <div className="w-full bg-gray-900 text-white text-lg py-3 flex justify-center md:mt-20">
         Made with
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Aakash Sharma
+        by Shivam Vishwakarma
       </div>
     </div>
   );

@@ -1,28 +1,15 @@
 import React, { useContext } from "react";
 import { serviceData } from "../constants";
-import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 
 const Services = () => {
-  const theme = useContext(ThemeContext);
   return (
-    <div
-      className={
-        theme.state.darkMode ? "pb-20 bg-fixed bg-gray-100" : "pb-20 bg-black"
-      }
-      // style={{backgroundImage: `url('https://i.pinimg.com/originals/b0/b1/f5/b0b1f5d33de00e3c21ad29bbba25e31b.gif')`}}>
-    >
+    <div className="pb-20">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 px-4 pt-20"
         id="services"
       >
-        <h2
-          className={
-            theme.state.darkMode
-              ? "text-5xl font-bold px-4 md:px-0 text-center"
-              : "text-5xl font-bold px-4 md:px-0 text-center text-white"
-          }
-        >
+        <h2 className="text-5xl font-bold px-4 md:px-0 text-center">
           Services
         </h2>
         <div className="">
@@ -39,9 +26,7 @@ const Services = () => {
                   hidden: { opacity: 0, scale: 0 },
                 }}
                 className={
-                  theme.state.darkMode
-                    ? "md:w-96 p-4 bg-white rounded-lg flex items-center flex-col mt-8"
-                    : "md:w-96 p-4 bg-gray-100 rounded-lg flex items-center flex-col mt-8"
+                  "md:w-96 p-4 bg-gray-100 rounded-lg flex items-center flex-col mt-8"
                 }
               >
                 <img src={el.img} alt="" />

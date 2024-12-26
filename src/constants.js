@@ -1,3 +1,29 @@
+export const frontendTechStack = [ 
+  { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+  { name: "CSS", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
+  { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  { name: "Jquery", link: "https://www.svgrepo.com/show/353940/jquery.svg" },
+  { name: "Bootstrap", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" },
+  { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" }, 
+  { name: "Nextjs", link: "https://www.svgrepo.com/show/354112/nextjs.svg" }, 
+  { name: "Redux", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" }, 
+  { name: "TypeScript", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },  
+  { name: "Tailwind CSS", link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" } 
+]
+
+export const backendTechStack = [ 
+  { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+  { name: "CSS", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
+  { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  { name: "Jquery", link: "https://www.svgrepo.com/show/353940/jquery.svg" },
+  { name: "Bootstrap", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" },
+  { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" }, 
+  { name: "Nextjs", link: "https://www.svgrepo.com/show/354112/nextjs.svg" }, 
+  { name: "Redux", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" }, 
+  { name: "TypeScript", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },  
+  { name: "Tailwind CSS", link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" } 
+]
+
 export const techStack = [
 
   { name: "C Language", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" },

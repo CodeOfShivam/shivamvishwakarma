@@ -89,16 +89,45 @@ export const projects = [
   {
     "name": "Activity Booking Platform",
     "desc": "An innovative platform enabling users to explore and book a variety of activities, from adventure sports and sightseeing tours to workshops and cultural events. The system is designed to provide a streamlined booking experience with secure payment options and real-time availability updates.",
-    "img": "./projects/activity-booking/1.png",
+    "img": "./projects/sightseeing/1.png",
     "feature": "<ul><li>Search and book activities with ease</li><li>Live activity availability updates</li><li>Secure payment gateway integration</li></ul>",
     "techStack": ["HTML", "CSS", "Javascript", "Jquery", "Bootstrap", "PHP", "MySQL", "Rest API"],
     "role": "Fullstack Developer",
     "image": [
-      "./projects/activity-booking/1.png",
-      "./projects/activity-booking/2.png",
-      "./projects/activity-booking/3.png",
-      "./projects/activity-booking/4.png",
-      "./projects/activity-booking/5.png"
+      "./projects/sightseeing/1.png",
+      "./projects/sightseeing/2.png",
+      "./projects/sightseeing/3.png",
+      "./projects/sightseeing/4.png"
     ]
-  }
+  },
+  {
+    "name": "Courier Service Platform",
+    "desc": "A dynamic platform for managing courier services, providing users with options to book, track, and manage parcel deliveries. The system ensures reliable and secure handling of packages with real-time updates and efficient service management.",
+    "img": "./projects/courier/1.png",
+    "feature": "<ul><li>Book and manage courier deliveries</li><li>Real-time parcel tracking</li><li>Automated notifications via SMS and email</li></ul>",
+    "techStack": ["HTML", "CSS", "Javascript", "Jquery", "Bootstrap", "PHP", "MySQL", "Rest API", "AWS"],
+    "role": "Fullstack Developer",
+    "image": [
+      "./projects/courier/1.png",
+      "./projects/courier/2.png",
+      "./projects/courier/3.png",
+      "./projects/courier/4.png",
+      "./projects/courier/5.png"
+    ]
+},
+  {
+    "name": "CRM Tool for Quotation & Invoice Management",
+    "desc": "A comprehensive CRM tool designed for offline management of quotations, invoices, bills, e-tickets, and other travel-related documents. Tailored for travel agencies, this tool simplifies the process of generating and managing documents for flights, hotels, transfers, and visas, with an integrated email system to send them directly to customers.",
+    "img": "./projects/crm/1.png",
+    "feature": "<ul><li>Generate quotations, invoices, and bills offline</li><li>Create and manage e-tickets for flights, hotels, transfers, and visas</li><li>Integrated email functionality for sending documents to customers</li><li>Offline data storage with automated synchronization</li><li>Customizable templates for branding and personalization</li></ul>",
+    "techStack": ["HTML", "CSS", "Javascript", "Bootstrap", "PHP", "MySQL", "Rest API"],
+    "role": "Fullstack Developer",
+    "image": [
+      "./projects/crm/1.png",
+      "./projects/crm/2.png",
+      "./projects/crm/3.png",
+      "./projects/crm/4.png",
+      "./projects/crm/5.png"
+    ]
+}
 ];

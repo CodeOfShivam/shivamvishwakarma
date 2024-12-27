@@ -57,27 +57,48 @@ export const serviceData = [
 
 export const projects = [
   {
-    name: 'Tour Packages & Booking',
-    desc: 'Website offer a variety of holiday packages tailored to your needs, whether you’re planning a beach getaway, a city adventure, or a cultural exploration. From luxurious resorts to budget-friendly options, we ensure a seamless travel experience.',
-    img: "./projects/azurway/1.png",
-    feature: "<ul><li>Flexible itineraries</li><li>24/7 Customer Support</li><li>Exclusive Deals</li></ul>",
-    techStack: ["HTML", "CSS", "Javascript", "Jquery" , "Bootstrap", "PHP", "MySQl",  "Rest API", "AWS"],
-    role: "Frontend Developer & Backend Developer",
-    image: [
-      "./projects/azurway/1.png", 
+    "name": "Tour Packages & Booking",
+    "desc": "A comprehensive platform for exploring and booking holiday packages tailored to individual preferences. Users can select from a wide range of options, including beach escapes, city breaks, and cultural tours. With luxurious resorts and budget-friendly packages, the website ensures a smooth and enjoyable booking experience.",
+    "img": "./projects/azurway/1.png",
+    "feature": "<ul><li>Users can inquire about hotels and holiday packages</li><li>Integrated Worldline Payment Gateway</li><li>Automated Cron Jobs to manage pending booking requests</li></ul>",
+    "techStack": ["HTML", "CSS", "Javascript", "Jquery", "Bootstrap", "PHP", "MySQL", "Rest API", "AWS"],
+    "role": "Frontend Developer & Backend Developer",
+    "image": [
+      "./projects/azurway/1.png",
       "./projects/azurway/2.png",
-       "./projects/azurway/3.png",
-       "./projects/azurway/4.png",
-       "./projects/azurway/5.png"
+      "./projects/azurway/3.png",
+      "./projects/azurway/4.png",
+      "./projects/azurway/5.png"
     ]
   },
   {
-    name: 'Frontend Application Development',
-    desc: `Creating responsive and visually appealing interfaces. We specialize in building cross-platform applications, enhancing user experiences, and integrating innovative technologies like chat and voice interactions.`,
-    img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png",
-    feature:"<ul><li>Responsive Design</li><li>SEO Optimized</li><li>Customized</li></ul>",
-    techStack: ["HTML", "CSS", "Javascript", "Jquery" , "Bootstrap", "PHP", "MySQl",  "Rest API", "AWS"],
-    role: "Backend Developer",
-    image: ["https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png","https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"]
-  }, 
+    "name": "Hotel Booking Website",
+    "desc": "A robust platform designed for seamless hotel bookings, providing a responsive and visually appealing interface. Features include live booking capabilities and integrations to ensure timely communication with users via email notifications. Tailored to enhance user experiences with modern and reliable technologies.",
+    "img": "./projects/rayds-hotel/1.png",
+    "feature": "<ul><li>Users can inquire and book hotels in real time</li><li>Live Hotel Booking API integration</li><li>Automated email notifications for confirmed bookings</li></ul>",
+    "techStack": ["HTML", "CSS", "Javascript", "Jquery", "Bootstrap", "PHP", "MySQL"],
+    "role": "Fullstack Developer",
+    "image": [
+      "./projects/rayds-hotel/1.png",
+      "./projects/rayds-hotel/2.png",
+      "./projects/rayds-hotel/3.png",
+      "./projects/rayds-hotel/4.png",
+      "./projects/rayds-hotel/5.png"
+    ]
+  },
+  {
+    "name": "Activity Booking Platform",
+    "desc": "An innovative platform enabling users to explore and book a variety of activities, from adventure sports and sightseeing tours to workshops and cultural events. The system is designed to provide a streamlined booking experience with secure payment options and real-time availability updates.",
+    "img": "./projects/activity-booking/1.png",
+    "feature": "<ul><li>Search and book activities with ease</li><li>Live activity availability updates</li><li>Secure payment gateway integration</li></ul>",
+    "techStack": ["HTML", "CSS", "Javascript", "Jquery", "Bootstrap", "PHP", "MySQL", "Rest API"],
+    "role": "Fullstack Developer",
+    "image": [
+      "./projects/activity-booking/1.png",
+      "./projects/activity-booking/2.png",
+      "./projects/activity-booking/3.png",
+      "./projects/activity-booking/4.png",
+      "./projects/activity-booking/5.png"
+    ]
+  }
 ];

@@ -6,7 +6,7 @@ import cloud from "../assets/cloudBg.png";
 const Home = () => {
   const handleClick = () => {
     const resumeUrl =
-      "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf";
+      "./shivam-resume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.setAttribute("download", "Resume.pdf");

@@ -108,7 +108,7 @@ const Projects = () => {
                   <img
                     src={selectedProject.image[currentImageIndex]}
                     alt={`${selectedProject.name} Image`}
-                    className="w-full h-[400px] object-cover rounded-lg"
+                    className="w-full h-[400px] object-contain rounded-lg"
                   />
                   <button
                     onClick={prevImage}

@@ -15,8 +15,8 @@ export const backendTechStack = [
   { name: "PHP", link: "https://www.svgrepo.com/show/303656/php-logo.svg" },
   { name: "Java", link: "https://www.svgrepo.com/show/184143/java.svg" },
   { name: "Spring Boot", link: "https://www.svgrepo.com/show/333604/spring-boot.svg" },
-  { name: "MySQl", link: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
-  { name: "SQl", link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDIRqviruMwH1RyT7U_OJfKFOs0MaMmCtQbQ&s" },
+  { name: "MySQL", link: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
+  { name: "SQL", link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDIRqviruMwH1RyT7U_OJfKFOs0MaMmCtQbQ&s" },
   { name: "Rest API", link: "https://www.svgrepo.com/show/88703/api.svg" },
 ]
 

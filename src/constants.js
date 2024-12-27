@@ -59,13 +59,16 @@ export const projects = [
   {
     name: 'Tour Packages & Booking',
     desc: 'Website offer a variety of holiday packages tailored to your needs, whether you’re planning a beach getaway, a city adventure, or a cultural exploration. From luxurious resorts to budget-friendly options, we ensure a seamless travel experience.',
-    img: "https://www.azurwaytravel.com/global/images/logo.svg",
+    img: "./assets/projects/azurway/1.png",
     feature: "<ul><li>Flexible itineraries</li><li>24/7 Customer Support</li><li>Exclusive Deals</li></ul>",
     techStack: ["HTML", "CSS", "Javascript", "Jquery" , "Bootstrap", "PHP", "MySQl",  "Rest API", "AWS"],
     role: "Frontend Developer & Backend Developer",
     image: [
-      "https://www.azurwaytravel.com/global/images/logo.svg", 
-      "https://www.azurwaytravel.com/assets/images/tour-package2.jpg"
+      "./assets/projects/azurway/1.png", 
+      "./assets/projects/azurway/2.png",
+       "./assets/projects/azurway/3.png",
+       "./assets/projects/azurway/4.png",
+       "./assets/projects/azurway/5.png"
     ]
   },
   {

@@ -55,7 +55,7 @@ const Projects = () => {
             >
               <a>
                 <img
-                  className="rounded-t-lg w-full h-[300px] object-cover"
+                  className="rounded-t-lg w-full h-[400px] object-cover"
                   src={el.img}
                   alt={el.name}
                 />

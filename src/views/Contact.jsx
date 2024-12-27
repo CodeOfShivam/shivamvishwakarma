@@ -6,7 +6,7 @@ const Contact = () => {
     <div id="contact" className="pt-24 md:h-screen">
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
-          Contact
+          Contact Us
         </h2>
         <div>
           <h4 className="mt-12 text-3xl font-semibold text-blue-500">
@@ -58,37 +58,28 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:aakash.sh858791@gmail.com">
+                  <a href="mailto:vishwakarmashivam581@gmail.com">
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:aakash.sh858791@gmail.com">Submit</a>
+                  <a href="mailto:vishwakarmashivam581@gmail.com">Submit</a>
                 </button>
               </div>
             </form>
           </div>
           <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
-            {/* <h1 className="text-3xl font-bold">Phone</h1>
-            <a
-              href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
-            >
-              +91 8285631499
-            </a> */}
+            <h1 className="text-3xl font-bold">Phone</h1>
+            <a className="mb-12 mt-4 font-semibold text-blue-700 block uppercase">
+              +91 9324889348
+            </a>
             <h1 className="text-3xl font-bold">Email</h1>
-            <a
-              href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
-            >
-              aakash.sh858791@gmail.com
+            <a className="mb-12 mt-4 font-semibold text-blue-700 block">
+              vishwakarmashivam581@gmail.com
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
-            <a
-              href="hello"
-              className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
-            >
-              Jhilmil Colony, Delhi
+            <a className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase">
+              Borivali West, Mumbai - 400103
               <br />
               India
             </a>
@@ -100,7 +91,6 @@ const Contact = () => {
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
                 >
                   <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
               ))}
             </ul>

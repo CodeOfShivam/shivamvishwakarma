@@ -2,9 +2,20 @@ import React, { useContext } from "react";
 import heroBg from "../assets/webdev.svg";
 import Typical from "react-typical";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 const Home = () => {
+  const handleClick = () => {
+    const resumeUrl =
+      "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf";
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.setAttribute("download", "Resume.pdf");
+    link.setAttribute("target", "_blank");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <div
@@ -18,7 +29,7 @@ const Home = () => {
           id="/"
         >
           <div className="sm:text-center lg:text-left ">
-            <div className="flex md:justify-start mb-7">
+            <div className="flex md:justify-start mb-7 mt-7">
               <div class="relative flex items-center justify-center">
                 <h2 class="text-4xl font-bold text-gray-800">
                   <span class="relative bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
@@ -53,9 +64,12 @@ const Home = () => {
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
+                <button
+                  onClick={handleClick}
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10"
+                >
                   Resume
-                </Link>
+                </button>
               </div>
             </div>
           </div>

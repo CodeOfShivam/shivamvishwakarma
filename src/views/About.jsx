@@ -1,5 +1,9 @@
 import React, { useContext } from "react";
-import { frontendTechStack } from "../constants";
+import {
+  frontendTechStack,
+  backendTechStack,
+  otherTechStack,
+} from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -67,7 +71,7 @@ const About = () => {
             </h5>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
-            {frontendTechStack.map((el, index) => (
+            {backendTechStack.map((el, index) => (
               <motion.div
                 initial="hidden"
                 whileInView={"visible"}
@@ -95,8 +99,8 @@ const About = () => {
               Other Tools
             </h5>
           </motion.div>
-          <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
-            {frontendTechStack.map((el, index) => (
+          <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between">
+            {otherTechStack.map((el, index) => (
               <motion.div
                 initial="hidden"
                 whileInView={"visible"}

@@ -98,9 +98,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="w-full bg-gray-900 text-white text-lg py-3 flex justify-center md:mt-20">
-        Made with
-        <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Shivam Vishwakarma
+        Made with © by Shivam Vishwakarma
       </div>
     </div>
   );

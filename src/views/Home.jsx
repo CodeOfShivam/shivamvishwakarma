@@ -57,7 +57,7 @@ const Home = () => {
                 />
               </span>
             </h1>
-            <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <p className="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               I am a Back-End / Full-Stack Developer. I am currently working at
               Backend Technologies as a Full-Stack Developer
             </p>

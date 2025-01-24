@@ -33,7 +33,7 @@ const Home = () => {
               <div class="relative flex items-center justify-center">
                 <h2 class="text-4xl font-bold text-gray-800">
                   <span class="relative bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
-                    2.5+ Years Experience
+                    3 Years Experience
                     <span class="absolute -z-10 left-0 right-0 -bottom-1.5 -top-1 rounded-full bg-yellow-300 opacity-75 -rotate-2"></span>
                   </span>
                 </h2>
